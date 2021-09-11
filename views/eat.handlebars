@@ -1,0 +1,31 @@
+
+<!-- this is the Eat page -->
+<div>
+    <br>
+    <br>
+    
+    <div class="uk-card uk-card-secondary uk-card-body custom-card-class">
+        <h1>Eat</h1>
+        <h3 class="uk-card-title">Log your ingredients!</h3>
+        <p class="p"> 
+            Log each ingredient in your meal here!
+        </p>
+
+        <input type="text" id="foodinput"> food item
+         <input type="text" id="calorieinput"> calories
+        
+<!-- login/signup buttons --> 
+<button class="uk-button uk-button-text newEat"> ⇨ Log your food</button>
+
+{{#each eat}}
+<h3 id="foodinput">Food: 
+       {{{food_name}}}
+       </h3>
+
+       <h3 id="calorieinput">Calories:
+       {{{calories}}}
+       </h3>
+     {{/each}}
+    </div>
+</div>
+</div>

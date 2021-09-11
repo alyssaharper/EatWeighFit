@@ -1,0 +1,64 @@
+<!-- {{{signUp}}}-->
+<!-- this is the Sign Up page-->
+
+<div>
+    <br>
+    <br>
+    
+    <div class="uk-card uk-card-secondary uk-card-body custom-card-class">
+        <h1>Sign Up!</h1>
+        <h3 class="uk-card-title">Welcome to <em>Eat, Weigh, Fit</em>!</h3>
+        <p class="p"> 
+            At EWF, we believe that fitness should be fun! We're so glad you think so too!
+            <br>
+            <br> 
+            To create your user profile, fill out the form below: 
+        </p>
+    <input type="name" id="name-signup" placeholder="Full Name"required>
+    <br>
+    <input type="email" id="email-signup" placeholder="E-mail" required>
+    <br>
+    <input type="password" id='password-signup' placeholder="Password" required>
+    <br>
+    <input type="text" id='height-signup' placeholder="Height" required>
+    <br>
+    <input type="text" id='weight-signup' placeholder="Weight" required>
+    <br>
+    <input type="number" id='age-signup' placeholder="Age" required>
+    <br>
+    <input type="number" id='target-weight-signup' placeholder="Target_weight" required>
+    <br>
+    <input type="date" id='target-date-signup' placeholder="Target_date" required>
+    <br>
+    <!--Body Type-->
+    <input type="datalist2" list="goal-bodies2" id="body-option2" name="body-option2" placeholder="Current Body Type"/>
+        
+    <datalist id="goal-bodies2">
+        <option value="I have a body">
+        <option value="Dad Bod / Mom Bod / Parental Bod / 'Oh Sh*^ I have a Kid'-Bod">
+        <option value="Garbage Truck Bod">
+        <option value="Mish Bod">
+        <option value="Mish Uber Hiker Bod">
+        <option value="Ryan Gosling / Ryan Reynolds? Not look like them just BE them">
+    </datalist>
+    <br>
+    <!-- Goal Body Type -->
+    <input type="datalist" list="goal-bodies" id="body-option" name="body-option" placeholder="Goal Body Type"/>
+        
+    <datalist id="goal-bodies">
+        <option value="I have a body">
+        <option value="Dad Bod / Mom Bod / Parental Bod / 'Oh Sh*^ I have a Kid'-Bod">
+        <option value="Garbage Truck Bod">
+        <option value="Mish Bod">
+        <option value="Mish Uber Hiker Bod">
+        <option value="Ryan Gosling / Ryan Reynolds? Not look like them just BE them">
+    </datalist>
+    <br>
+<!-- login/signup buttons --> 
+<button class="uk-button uk-button-text signup-form"><a href="/signup"> ⇨ Sign Up</a></button>
+
+    </div>
+</div>
+</div>
+
+<script src="./js/signup.js"></script>

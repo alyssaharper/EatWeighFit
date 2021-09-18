@@ -18,7 +18,7 @@
 >[Questions](#Questions)
 
 **Installation Instructions** <a name="Installation"></a>
->To run this application, simply visit www.eatweighfit.com
+>To run this application, simply visit https://eatweightfit.herokuapp.com/
 
 **Group Member Responsibilities/Tasks**
 Alyssa: Routes, Helpers
@@ -42,11 +42,10 @@ Michael F: Handlebars.js
 **Questions** <a name="Questions"></a>
 >Have questions? Feel free to reach out to me, by visiting me on GitHub at:
 >
->https://github.com/mtkfolger/EatWeighFit
+>https://github.com/alyssaharper/EatWeighFit
 >
 >or by contacting me via e-mail, at:
 >
->N/A
+>alyssam.harper@yahoo.com
 
 ---
-*This readme template is © Michael Folger - 2021*
